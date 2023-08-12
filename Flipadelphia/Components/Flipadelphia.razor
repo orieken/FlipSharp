@@ -1,0 +1,42 @@
+
+@using Microsoft.Extensions.Configuration
+@typeparam TItem
+
+@if (IsFeatureOn)
+{
+    @FeatureIsOnTemplate
+}
+else
+{
+    @FeatureIsOffTemplate
+}
+
+@code {
+    [Parameter]
+    public required IConfiguration Configuration { get; set; }
+
+    [Parameter]
+    public required string FeatureName { get; set; }
+
+    [Parameter]
+    public required RenderFragment FeatureIsOnTemplate { get; set; }
+
+    [Parameter]
+    public required RenderFragment FeatureIsOffTemplate { get; set; }
+
+    [Parameter]
+    public TItem? Context { get; set; }
+    
+    private bool IsFeatureOn
+    {
+        get
+        {
+            if (string.IsNullOrWhiteSpace(FeatureName))
+                return false;
+            bool isOn = Configuration.GetValue<bool>($"Features:{FeatureName}");
+
+            return isOn;
+        }
+    }
+
+}

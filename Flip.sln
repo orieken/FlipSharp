@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flipadelphia", "Flipadelphia\Flipadelphia.csproj", "{2CCC8AB5-1A76-4FE7-9AB8-E0881B6B5813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flipadelphia.Tests", "Flipadelphia.Tests\Flipadelphia.Tests\Flipadelphia.Tests.csproj", "{E8AE5699-8F5B-42E8-9CF3-164553BCCF60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CCC8AB5-1A76-4FE7-9AB8-E0881B6B5813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CCC8AB5-1A76-4FE7-9AB8-E0881B6B5813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CCC8AB5-1A76-4FE7-9AB8-E0881B6B5813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CCC8AB5-1A76-4FE7-9AB8-E0881B6B5813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8AE5699-8F5B-42E8-9CF3-164553BCCF60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8AE5699-8F5B-42E8-9CF3-164553BCCF60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8AE5699-8F5B-42E8-9CF3-164553BCCF60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8AE5699-8F5B-42E8-9CF3-164553BCCF60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
