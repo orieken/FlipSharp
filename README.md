@@ -2,6 +2,8 @@
 
 ## **Flipadelphia Component Documentation**
 
+* [![.NET](https://github.com/orieken/FlipSharp/actions/workflows/dotnet-desktop.yml/badge.svg)](https://github.com/orieken/FlipSharp/actions/workflows/dotnet-desktop.yml)
+
 ### **Introduction**
 
 The `Flipadelphia` component provides a flexible and robust mechanism for feature toggling within Blazor applications. It allows developers to dynamically display different content based on the state of a feature flag.
